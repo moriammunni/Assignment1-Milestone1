@@ -77,7 +77,7 @@ body {
 }
 
 /* pillars section */
-.pillars-container {
+.pillars-container, .vision-container {
     display: flex;
     column-gap: 24px;
     margin: 32px 0;
@@ -93,4 +93,153 @@ body {
     font-weight: bold;
     font-size: 20px;
     margin: 12px 0px;
+}
+.vison-destais {
+    background-image: url('./assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 20px 24px;
+    padding: 48px 24px;
+    border-radius: 24px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+.vison-destais h4 {
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.question-container {
+    padding: 32px;
+    border-radius: 16px;
+    background-color: white;
+    margin-top: 24px;
+}
+.table {
+    border: 1px solid #ddd;
+}
+.select-option {
+    border-left: 1px solid #ddd;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+  }
+  th, td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: rgb(198, 228, 214);
+    color: #333;
+  }
+  select {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: rgb(198, 228, 214);
+  }
+/* news */
+.first-news{
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 48px;
+    margin-top: 24px;
+    border-radius: 24px;
+
+}
+.second-news{
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 48px;
+    margin-top: 24px;
+border-radius: 24px;
+}
+#news{
+    margin:80px 0px;
+}
+.first-news-container{
+    margin-left: 32px;
+}
+.news-image-container{
+    margin-left: 32px;
+}
+.news-title{
+    margin-top: 12px;
+}
+#news .primary-btn{
+    margin-top: 32px;
+}
+#news img {
+    border-radius: 24px;
+}
+.donate-container {
+    text-align: center;
+}
+.taka-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.taka-card {
+    font-size: 40px;
+    padding: 40px 50px;
+    background-color: white;
+    color: rgba(14, 14, 14, 0.8);
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    font-weight: 800;
+    text-align: center;
+}
+.donate-input {
+    width: 95%;
+    margin: 32px auto;
+    padding: 20px 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.subscribe-container {
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    padding: 80px 100px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.subscribe-input {
+    display: flex;
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.subscribe-input input {
+    border: none;
+    border-radius: 24px;
+    width: 99%;
+    padding: 0 20px;
+    font-size: 16px;
+    outline: none;
+}
+.subscribe-input .primary-btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+footer{
+    background-color: white;
+    padding: 50px 0px;
+    text-align: center;
+}
+.footer-title {
+    font-size: 32px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.footer-images {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
 }
